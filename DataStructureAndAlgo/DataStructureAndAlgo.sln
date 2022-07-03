@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BitManipulation", "BitManipulation", "{8608D6B4-C268-40F3-A806-F22FE6A563A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitManipulationProblems", "BitManipulationProblems\BitManipulationProblems.csproj", "{CCB51C4B-7E84-49C0-8313-E294845908AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursion", "Recursion", "{E376D495-8ED3-4B11-94A4-6E89B9BC880D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionProblems", "RecursionProblems\RecursionProblems.csproj", "{46190112-35B8-4CC4-838B-546C04EDC531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{437BDA8F-F27B-497C-AE3C-C6A3AEFC8A94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCB51C4B-7E84-49C0-8313-E294845908AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB51C4B-7E84-49C0-8313-E294845908AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB51C4B-7E84-49C0-8313-E294845908AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB51C4B-7E84-49C0-8313-E294845908AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46190112-35B8-4CC4-838B-546C04EDC531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46190112-35B8-4CC4-838B-546C04EDC531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46190112-35B8-4CC4-838B-546C04EDC531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46190112-35B8-4CC4-838B-546C04EDC531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{437BDA8F-F27B-497C-AE3C-C6A3AEFC8A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{437BDA8F-F27B-497C-AE3C-C6A3AEFC8A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{437BDA8F-F27B-497C-AE3C-C6A3AEFC8A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{437BDA8F-F27B-497C-AE3C-C6A3AEFC8A94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCB51C4B-7E84-49C0-8313-E294845908AD} = {8608D6B4-C268-40F3-A806-F22FE6A563A8}
+		{46190112-35B8-4CC4-838B-546C04EDC531} = {E376D495-8ED3-4B11-94A4-6E89B9BC880D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52464E57-EB9B-4EE2-82F9-FC183AED55D6}
+	EndGlobalSection
+EndGlobal
