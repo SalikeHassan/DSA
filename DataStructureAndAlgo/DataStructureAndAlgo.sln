@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArrayMatrix", "ArrayMatrix"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix", "Matrix\Matrix.csproj", "{E32A6454-F938-4B72-ABC7-C29F8A57F09F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "String", "String", "{18EECB01-644C-48D5-A42F-1AA21B2E2C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringProblems", "StringProblems\StringProblems.csproj", "{DEEB5DF0-9409-4280-BB97-02A7B76BD951}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{E32A6454-F938-4B72-ABC7-C29F8A57F09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E32A6454-F938-4B72-ABC7-C29F8A57F09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E32A6454-F938-4B72-ABC7-C29F8A57F09F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEEB5DF0-9409-4280-BB97-02A7B76BD951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEEB5DF0-9409-4280-BB97-02A7B76BD951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEEB5DF0-9409-4280-BB97-02A7B76BD951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEEB5DF0-9409-4280-BB97-02A7B76BD951}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{CCB51C4B-7E84-49C0-8313-E294845908AD} = {8608D6B4-C268-40F3-A806-F22FE6A563A8}
 		{46190112-35B8-4CC4-838B-546C04EDC531} = {E376D495-8ED3-4B11-94A4-6E89B9BC880D}
 		{E32A6454-F938-4B72-ABC7-C29F8A57F09F} = {D5928F66-8832-4F61-AB0C-3655DC24742E}
+		{DEEB5DF0-9409-4280-BB97-02A7B76BD951} = {18EECB01-644C-48D5-A42F-1AA21B2E2C61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52464E57-EB9B-4EE2-82F9-FC183AED55D6}
