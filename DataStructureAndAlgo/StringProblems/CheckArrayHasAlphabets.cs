@@ -10,6 +10,10 @@ namespace StringProblems
     {
         internal static void CheckIfArrayHasAlphabets(char[] A)
         {
+
+            var str = "842554936302263";
+            long num = Convert.ToInt64(str);
+            long res = num % 41;
             int size = A.Length;
             bool isAllAlphabets = true;
 

@@ -84,5 +84,49 @@ namespace StringProblems
 
             return idx2 - idx1 - 1;
         }
+
+        public static void PrintLongestPallindromeSubStr(string A)
+        {
+            char[] arrChar = A.ToCharArray();
+            int size = arrChar.Length;
+            string str1 = "";
+            string str2 = "";
+            string result = "";
+
+            for (int idx = 0; idx < size; idx++)
+            {
+                str1 = GetSubStr(arrChar, idx, idx);
+
+                str2 = GetSubStr(arrChar, idx, idx + 1);
+
+                if (result.Length < str1.Length || result.Length < str2.Length)
+                {
+                    result = str1.Length < str2.Length ? str2 : str1;
+                }
+            }
+
+            Console.WriteLine(result);
+        }
+
+        private static string GetSubStr(char[] arrChar, int idx1, int idx2)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            while (idx1 >= 0 && idx2 < arrChar.Length && arrChar[idx1] == arrChar[idx2])
+            {
+                idx1--;
+                idx2++;
+            }
+
+            idx1 = idx1 + 1;
+
+            while (idx1 < idx2)
+            {
+                sb.Append(arrChar[idx1]);
+                idx1++;
+            }
+
+            return sb.ToString();
+        }
     }
 }

@@ -8,6 +8,31 @@ namespace StringProblems
 {
     internal static class ReverseString
     {
+        internal static void SimpleReverse(string str)
+        {
+            char[] arrChars = str.ToCharArray();
+            int rightIdx = arrChars.Length - 1;
+            int leftIdx = 0;
+            int size = arrChars.Length;
+            StringBuilder sb = new StringBuilder();
+
+            while (leftIdx <= rightIdx)
+            {
+                char temp = arrChars[leftIdx];
+                arrChars[leftIdx] = arrChars[rightIdx];
+                arrChars[rightIdx] = temp;
+                leftIdx++;
+                rightIdx--;
+            }
+
+            for (int idx = 0; idx < size; idx++)
+            {
+                sb.Append(arrChars[idx]);
+            }
+
+            Console.Write(sb.ToString());
+        }
+
         //Time complexity O(N)
         internal static void PrintReverseStringForGivenIndexes(string str, int l, int r)
         {
